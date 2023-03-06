@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "Monbook"
+  author: "Jane Doe"
+  date: "3/6/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - chapitre2.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreport
+  epub:
+    cover-image: cover.png
+
+editor: visual
+
